@@ -14,6 +14,7 @@
 		3E49A4162244E4C400D261B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E49A4142244E4C400D261B2 /* LaunchScreen.storyboard */; };
 		3E49A4212244E4C400D261B2 /* LHQBlankViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A4202244E4C400D261B2 /* LHQBlankViewDemoTests.swift */; };
 		3E49A42C2244E4C400D261B2 /* LHQBlankViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A42B2244E4C400D261B2 /* LHQBlankViewDemoUITests.swift */; };
+		3E49A43A2244E57E00D261B2 /* EasyBlankPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A4392244E57E00D261B2 /* EasyBlankPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E49A4272244E4C400D261B2 /* LHQBlankViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHQBlankViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E49A42B2244E4C400D261B2 /* LHQBlankViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHQBlankViewDemoUITests.swift; sourceTree = "<group>"; };
 		3E49A42D2244E4C400D261B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E49A4392244E57E00D261B2 /* EasyBlankPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyBlankPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3E49A40B2244E4C300D261B2 /* AppDelegate.swift */,
 				3E49A40D2244E4C300D261B2 /* ViewController.swift */,
+				3E49A4392244E57E00D261B2 /* EasyBlankPageView.swift */,
 				3E49A40F2244E4C300D261B2 /* Main.storyboard */,
 				3E49A4122244E4C400D261B2 /* Assets.xcassets */,
 				3E49A4142244E4C400D261B2 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E49A43A2244E57E00D261B2 /* EasyBlankPageView.swift in Sources */,
 				3E49A40E2244E4C300D261B2 /* ViewController.swift in Sources */,
 				3E49A40C2244E4C300D261B2 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
 				INFOPLIST_FILE = LHQBlankViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
 				INFOPLIST_FILE = LHQBlankViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
